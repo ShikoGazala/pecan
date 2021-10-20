@@ -1,0 +1,40 @@
+$ml: 10;
+
+.container {
+  margin-top: 15px;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+img {
+  width: 12px;
+  height: 12px;
+}
+
+.item1 {
+  margin-left: $ml+px;
+}
+
+.item2 {
+  margin-left: $ml*2+px;
+}
+
+.item3 {
+  margin-left: $ml*3+px;
+}
+
+.item4 {
+  margin-left: $ml*4+px;
+}
+
+.item5 {
+  margin-left: $ml*5+px;
+}
+
+.item-name {
+  margin-left: 5px;
+}
